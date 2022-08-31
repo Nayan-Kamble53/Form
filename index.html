@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="survey-form">
+            <h1 id="title">Survey Form</h1>
+            <hr><br>
+            <div class="container2">
+                <h2>
+                    <p id="description">This is a Survey Form to collect Data</p>
+                </h2><br>
+
+                <p class="names">Name:</p>
+                <input type="text" id="name" required=" " placeholder="Enter Your Name">
+                <label for="" id="name-label">Enter your Name
+                </label><br><br><br>
+
+                <p class="names">Email:</p>
+                <input type="email" id="email" required="@" placeholder="Enter Your Email">
+                <label for="" id="email-label">Enter your Email
+                </label> <br><br><br>
+
+                <p class="names">Age:</p>
+                <input type="number" id="number" placeholder="Age" max="22" min="8">
+                <label for="" id="number-label">Enter your Age <br><br><br>
+                    <select name="" id="dropdown">
+                        <option value="">Choose Your Field</option>
+                        <option value="Junior School">Junior School</option>
+                        <option value="High School">High School</option>
+                        <option value="College">College</option>
+                    </select>
+                </label> <br><br><br>
+
+                <p>Which kind of Website you build ?</p>
+                <input type="radio" id="weba" name="Websites" value="Website for Online Registration Form">
+                <label for="weba">Website for Online Registration Form
+                </label> <br>
+
+                <input type="radio" id="webb" name="Websites" value="Website for Calculator">
+                <label for="webb">Website for Calculator
+                </label> <br>
+
+                <input type="radio" id="webc" name="Websites" value="Website for Online Shopping sites">
+                <label for="webc">Website for Online Shopping sites
+                </label><br><br><br>
+
+                <p>Which Sport you like ?</p>
+                <input type="checkbox" class="sports" value="1" id="Cricket">
+                <label for="Cricket">Cricket
+                </label><br>
+
+                <input type="checkbox" class="sports" value="1" id="Football">
+                <label for="Football">Football
+                </label><br>
+
+                <input type="checkbox" class="sports" value="1" id="Kabaddi">
+                <label for="Kabaddi">Kabaddi
+                </label><br>
+
+                <input type="checkbox" class="sports" value="1" id="Chess">
+                <label for="Chess">Chess
+                </label><br><br><br>
+
+                <label class="comment">Any comments or suggestions? <br>
+                    <textarea name="" id="comments" cols="30" rows="10"
+                        placeholder="Enter Comments here"></textarea><br><br>
+                </label><br><br>
+
+                <input type="submit" id="submit">
+                <label for="" id="submit">
+                </label>
+        </form>
+    </div>
+
+    </div>
+</body>
+
+</html>
