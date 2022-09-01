@@ -71,12 +71,13 @@ form {
 }
 
 #comments {
-    width: 39vw;
+    width: 40vw;
     height: 30vh;
     padding-left: 10px;
     padding-top: 10px;
     font-size: 15px;
     margin-top: 15px;
+    box-sizing: border-box;
 }
 
 #dropdown {
